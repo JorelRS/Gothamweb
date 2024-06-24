@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte de Gotham City</title>
+    <style>
+        body {
+            background-color: #1C1C1C;
+            color: #E5E5E5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #FFD700;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #FFD700;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #E5E5E5;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            color: #FFD700;
+            font-size: 2em;
+            margin-top: 20px;
+        }
+        .map {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            background-color: #000;
+            color: #FFD700;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .image-container {
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carte de Gotham City</h1>
+    </header>
+    <nav>
+        <a href="index.html#about">À propos de Gotham</a>
+        <a href="map.html">Carte de Gotham</a>
+        <a href="workouts.html">Entraînements Batman</a>
+        <a href="villains.html">Super-Vilains</a>
+        <a href="gadgets.html">Gadgets</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="map">
+            <h2 class="section-title">Carte de Gotham City</h2>
+            <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Gotham_City_Map.jpg" alt="Carte de Gotham City">
+            </div>
+            <p>Explorez les quartiers de Gotham City et découvrez les lieux emblématiques de la ville.</p>
+            <a href="detailed-map.html">Voir la carte détaillée de Gotham City</a>
+        </section>
+    </div>
+    <div class="footer">
+        &copy; 2024 Gotham City. Tous droits réservés.
+    </div>
+</body>
+</html>
